@@ -9,12 +9,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
   </head>
   
   <body>
     <div class="overlay">
-      <h1>You have a letter! 📫</h1>
-      <div onclick="openLetter()" class="open-letter-btn">💌</div>
+      <h1 id="text">You have a letter! 📫
+        tap on it!
+      </h1>
+      <div onclick="openLetter()" id="letterBtn" class="open-letter-btn">💌</div>
+    </div>
+    <div class="letter" id="letter">
+      <span class="letter-header">Dear Tig,</span>
+      <span id="letterContent">
+      i love you.
+      </span>
     </div>
   </body>
   
