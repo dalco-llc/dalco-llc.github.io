@@ -7,13 +7,15 @@
     width: 100vh;
     height: 100vh;
     background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .overlay h1 {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     text-align: center;
-    margin-top: 24px;
 }
 
 .open-letter-btn {
