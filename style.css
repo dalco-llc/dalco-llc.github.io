@@ -12,3 +12,17 @@ h1 {
     height: 100vh;
     background-color: burlywood;
 }
+
+.overlay h1 {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.open-letter-btn {
+    margin: 24px;
+    border: 2px solid bisque;
+    padding: 16px;
+    font-size: 52px;
+}
